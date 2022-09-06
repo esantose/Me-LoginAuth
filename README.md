@@ -25,3 +25,20 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+
+===========================================================
+npm install --save bootstrap jquery
+
+ng g m auth/auth --routing --flat
+ng g c auth/login --skip-tests
+ng g c auth/register --skip-tests
+
+ng g c shared/nopagefound --skip-tests
+ng g c shared/layout --skip-tests
+
+ng g g guards/auth --skip-tests
+ng g s services/auth --skip-tests
+
+ng g class models/loginData --skip-tests
+
+
